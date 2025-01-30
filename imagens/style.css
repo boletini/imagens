@@ -1,0 +1,32 @@
+:root{
+    background-image: url(https://cdn.wizard.com.br/wp-content/uploads/2021/09/23160112/ingles-canadense-1.jpg)
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--país-fundo);
+    transition: 1s;
+}
+
+#cor{
+    padding: 8px 12px;
+    font-size: 24px;
+   
+}
+
+#trocar-cor{
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
